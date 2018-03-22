@@ -1,0 +1,29 @@
+section#contact.section.scrollspy
+  h3.page-title.white-text.teal Contact
+  .container
+    p.text-center
+      a.waves-effect.waves-light.tooltipped(aria-label='View Nimish on Stack Overflow', href='https://stackoverflow.com/users/7393748/nimish', data-position='top', data-tooltip='View Nimish on Stack Overflow')
+        img(src='https://stackoverflow.com/users/flair/7393748.png?theme=dark',href='https://stackoverflow.com/users/7393748/nimish' ,width='208',height='58')
+  .row
+    .col.s12.m6.offset-m3
+      .card
+        .card-content
+          h4.brown-text.light.text-center Get in Touch
+          .row.text-center
+            .col.s12.m12
+              form.contact-form(method='POST',action="http://formspree.io/nimish094@gmail.com")
+                input(type="hidden" name="_subject" value="New Message from Portfolio")
+                input(type="hidden" name="_format" value="plain")
+                input(type="hidden" name="_next" value="nimish")
+                .row
+                  .input-field.col.s12.m6.offset-m3
+                    input#email(type='email', name='email',required, autocomplete="off")
+                    label(for="email") Email
+                .row
+                  .input-field.col.s12.m6.offset-m3
+                   textarea#message.materialize-textarea(name='message',required)
+                   label(for="message")  Message   
+                .row
+                   .input-field.col.s6.offset-s3
+                    button.btn.cyan.waves-effect.waves-light.right(type="submit") Send
+                     i.mdi-content-send.right

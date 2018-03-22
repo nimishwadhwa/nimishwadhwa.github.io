@@ -1,1 +1,248 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Materialize - Compiled and minified CSS-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">
+    <!-- Font Awesome Icon - CSS-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Nimish Wadhwa | Full Stack Developer</title>
+    <!-- Open Graph-->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nimish Wadhwa | Full Stack Developer">
+    <meta property="og:site_name" content="Nimish Wadhwa | Full Stack Developer">
+    <meta property="og:image" content="">
+    <meta name="author" content="Nimish Wadhwa">
+    <link rel="apple-touch-icon" sizes="57x57" href="static/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="static/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="static/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="static/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="static/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="static/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="static/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="static/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="static/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="static/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--if lt IE 9-->
+    <meta name="robots" content="index, follow">
+  </head>
+  <body>
+    <!-- Navigation Menu-->
+    <nav ng-class="hide-on-small-only">
+      <ul class="side-nav fixed section table-of-contents">
+        <li class="logo"><a class="brand-logo teal-text" id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro">
+            <h1>Nimish Wadhwa<span class="brown-text light">Full Stack Developer</span></h1></a></li>
+        <li class="bold"><a class="waves-effect waves-dark teal-text" aria-label="Navigate to the About section" href="#about"><i class="mdi-social-person small"></i><span>About</span></a></li>
+        <li class="bold"><a class="waves-effect waves-dark cyan-text" aria-label="Navigate to the Experience section" href="#experience"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+        <li class="bold"><a class="waves-effect waves-dark purple-text" aria-label="Navigate to the Skills section" href="#skills"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+        <li class="bold"><a class="waves-effect waves-dark orange-text" aria-label="Navigate to the Education section" href="#education"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+        <li class="bold"><a class="waves-effect waves-dark brown-text" aria-label="Navigate to the Contact section" href="#contact"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+        <li class="bold"><a class="waves-effect waves-dark grey-text text-darken-3" aria-label="Navigate to the Resume section" href="https://docs.google.com/document/d/1nIntY73FoscfFhWjg2kjB0n83-J9-iH5y0iZpviOT_E" target="_blank"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+      </ul>
+    </nav>
+    <nav class="hide-on-large only trigger z-depth-1"><a class="button-collapse" aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"><i class="mdi-navigation-menu"></i></a>
+      <div class="name-title"><a class="teal-text" id="name" aria-label="Navigate to the beginning of the page" href="#main">Nimish Wadhwa</a><span class="brown-text light">Full Stack Developer</span></div>
+    </nav>
+    <nav class="hide-on-large only">
+      <ul class="side-nav" id="slide-out">
+        <li class="bold"><a class="waves-effect waves-dark teal-text" aria-label="Navigate to the About section" href="#about"><i class="mdi-social-person small"></i><span>About</span></a></li>
+        <li class="bold"><a class="waves-effect waves-dark cyan-text" aria-label="Navigate to the Experience section" href="#experience"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
+        <li class="bold"><a class="waves-effect waves-dark purple-text" aria-label="Navigate to the Skills section" href="#skills"><i class="mdi-av-equalizer small"></i><span>Skills</span></a></li>
+        <li class="bold"><a class="waves-effect waves-dark orange-text" aria-label="Navigate to the Education section" href="#education"><i class="mdi-social-school small"></i><span>Education</span></a></li>
+        <li class="bold"><a class="waves-effect waves-dark brown-text" aria-label="Navigate to the Contact section" href="#contact"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
+        <li class="bold"><a class="waves-effect waves-dark grey-text text-darken-3" aria-label="Navigate to the Resume section" href="https://docs.google.com/document/d/1nIntY73FoscfFhWjg2kjB0n83-J9-iH5y0iZpviOT_E" target="_blank"><i class="mdi-action-description small"></i><span>Resume</span></a></li>
+      </ul>
+    </nav>
+    <!-- Main Content-->
+    <main>
+      <section class="section scrollspy full-height" id="intro">
+        <div class="container"></div>
+      </section>
+      <section class="section scrollspy" id="about">
+        <h3 class="page-title white-text teal">About</h3>
+        <div class="container flow-text">
+          <blockquote>
+            <h2>Hi. I’m Nimish, a software developer from Delhi, India. Please take a look around!</h2>
+          </blockquote>
+          <p>I am passionate about learning new technologies and always sought out challenges and rewarding oportunities. </p>
+          <p>My career began in Electronics and Communication Engineering then my interest in coding and development began to develop and I’ve arrived as a software developer. I am a quick learner and open to learn any new technologies.</p>
+        </div>
+      </section>
+      <section class="section scrollspy" id="experience">
+        <h3 class="page-title white-text teal">Experience</h3>
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2"><a href="javascript:void(0" target="_blank"><img class="responsive-img center-block" alt="Velsof logo" src="static/img/velsof.png"></a></div>
+                <div class="col s12 m10">
+                  <p><span class="card-title"><a class="teal-text hoverline" href="javascript:void(0)" title="Velocity Software Solutions Pvt.Ltd." target="_blank">Velsof</a></span></p>
+                </div>
+              </div>
+              <div class="role brown-text">Software Developer</div>
+              <p><em class="grey-text">eCommerce Solutions Provider        </em></p>
+              <h6>Accomplishments</h6>
+              <ul>
+                <li>Hands on experience in Coding, Testing, Development and Code review of Prestashop plugins developed in PHP, MySQL and other web development technologies.</li>
+                <li>Hands on experience in E-commerce open sources (Opencart, PrestaShop).</li>
+                <li>Developed PrestaShop modules to customize online store built in Prestashop.</li>
+                <li>Tested and fixed bugs in plugins on thousands of websites of clients.</li>
+                <li>Compatibility of developed plugins with other third party plugins used on clients website.</li>
+                <li>Client Handling Skills.</li>
+                <li>Worked On: PHP // HTML // CSS // JS // jQuery // AJAX // MySQL        </li>
+              </ul>
+            </div>
+            <div class="card-action"><span>August 2016 - Present  |  Noida</span></div>
+          </div>
+        </div>
+      </section>
+      <section class="section scrollspy" id="skills">
+        <h3 class="page-title white-text teal">Skills</h3>
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">HTML</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img class="responsive-img" alt="" src="static/img/html5.png">HTML         </div>
+                <div class="col s4 m2"><img class="responsive-img" alt="" src="static/img/pug.png">Pug</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">CSS</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img class="responsive-img" alt="" src="static/img/css3.png">CSS3</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Javascript</h4>
+              <div class="row text-center">         
+                <div class="col s4 m2"><img class="responsive-img" alt="" src="static/img/javascript.png">Javascript</div>
+                <div class="col s4 m2"><img class="responsive-img" alt="" src="static/img/jquery.png">jQuery</div>
+                <div class="col s4 m2"><img class="responsive-img" alt="" src="static/img/ajax.png">Ajax</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Back-End</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img class="responsive-img" alt="" src="static/img/php.png">PHP          </div>
+                <div class="col s4 m2"><img class="responsive-img" alt="" src="static/img/mysql.jpg">MySQL          </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">CMS</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img class="responsive-img" alt="" src="static/img/prestashop.png">PrestaShop</div>
+                <div class="col s4 m2"><img class="responsive-img" alt="" src="static/img/opencart.png">Opencart</div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Learning</h4>
+              <div class="row text-center">
+                <div class="col s4 m2"><img class="responsive-img" alt="" src="static/img/angular.png">Angular</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section scrollspy" id="education">
+        <h3 class="page-title white-text teal">Education</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m12">
+              <div class="card">
+                <div class="card-content">
+                  <p><span class="card-title"><a class="teal-text hoverline" href="http://manavrachna.edu.in/university/">Manav Rachna College Of Engineering</a></span></p>
+                  <p class="brown-text"> 2012 - 2016</p>
+                  <ul>
+                    <li>Bachelor of Technology in Electronics and Communication Engineering</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section scrollspy" id="contact">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container">
+          <p class="text-center"><a class="waves-effect waves-light tooltipped" aria-label="View Nimish on Stack Overflow" href="https://stackoverflow.com/users/7393748/nimish" data-position="top" data-tooltip="View Nimish on Stack Overflow"><img src="https://stackoverflow.com/users/flair/7393748.png?theme=dark" href="https://stackoverflow.com/users/7393748/nimish" width="208" height="58"></a></p>
+        </div>
+        <div class="row">
+          <div class="col s12 m6 offset-m3">
+            <div class="card">
+              <div class="card-content">
+                <h4 class="brown-text light text-center">Get in Touch</h4>
+                <div class="row text-center">
+                  <div class="col s12 m12">
+                    <form class="contact-form" method="POST" action="http://formspree.io/nimish094@gmail.com">
+                      <input type="hidden" name="_subject" value="New Message from Portfolio">
+                      <input type="hidden" name="_format" value="plain">
+                      <input type="hidden" name="_next" value="nimish">
+                      <div class="row">
+                        <div class="input-field col s12 m6 offset-m3">
+                          <input id="email" type="email" name="email" required autocomplete="off">
+                          <label for="email">Email</label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s12 m6 offset-m3">
+                          <textarea class="materialize-textarea" id="message" name="message" required></textarea>
+                          <label for="message"> Message   </label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="input-field col s6 offset-s3">
+                          <button class="btn cyan waves-effect waves-light right" type="submit">Send<i class="mdi-content-send right"></i></button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+            menuWidth: 190, // Default is 240
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          }
+        );
+      });
+    </script>
+    <!-- End-->
+  </body>
+</html>
